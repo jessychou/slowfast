@@ -1,0 +1,11 @@
+{
+    "watch (a person)":  1,
+    "talk to (e.g., self, a person, a group)":  2,
+    "listen to (a person)":  3,
+    "touch (an object)":  4,
+    "carry/hold (an object)":  5,
+    "walk":  6,
+    "sit":  7,
+    "lie/sleep":  8,
+    "bend/bow (at the waist)": 9
+}
