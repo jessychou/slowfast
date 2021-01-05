@@ -1,0 +1,2 @@
+# to run inference on a video using pre_trained model
+python tools/run_net.py --cfg demo/Kinetics/SLOWFAST_8x8_R50.yaml NUM_GPUS 0 TRAIN.BATCH_SIZE 8 SOLVER.BASE_LR 0.0125 DATA.PATH_TO_DATA_DIR slowfast/data/ TRAIN.ENABLE False TEST.ENABLE False TENSORBOARD.ENABLE True DEMO.ENABLE True DEMO.INPUT_VIDEO slowfast/data/face-demographics-walking-and-pause.mp4
